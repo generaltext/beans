@@ -1,0 +1,16 @@
+{
+  "name": "beans",
+  "displayName": "Beans",
+  "version": "0.1.0",
+  "gtApi": "^1.0",
+  "blurb": "Plain-text double-entry accounting, beancount-compatible, with a real UI.",
+  "icon": {
+    "kind": "svg",
+    "value": "<svg viewBox='0 0 24 24' fill='currentColor' fill-rule='evenodd'><g transform='translate(0.4 1.6)'><path transform='translate(15.2 10) rotate(-11) scale(0.92)' d='M0,-7 C2.54,-7 4.6,-3.87 4.6,0 C4.6,3.87 2.54,7 0,7 C-2.54,7 -4.6,3.87 -4.6,0 C-4.6,-3.87 -2.54,-7 0,-7 Z M0.5,-4.9 C2.3,-2.8 2.3,2.9 0.5,5 C1.55,2.9 1.55,-2.8 0.5,-4.9 Z'/><path transform='translate(8 15.2) rotate(-64) scale(0.82)' d='M0,-7 C2.54,-7 4.6,-3.87 4.6,0 C4.6,3.87 2.54,7 0,7 C-2.54,7 -4.6,3.87 -4.6,0 C-4.6,-3.87 -2.54,-7 0,-7 Z M0.5,-4.9 C2.3,-2.8 2.3,2.9 0.5,5 C1.55,2.9 1.55,-2.8 0.5,-4.9 Z'/></g></svg>"
+  },
+  "extensions": ["beancount"],
+  "tags": ["finance", "accounting", "beancount", "bookkeeping", "ledger"],
+  "repository": "https://github.com/generaltext/beans",
+  "url": "https://beans.generaltext.org",
+  "color": "amber"
+}
