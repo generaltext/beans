@@ -1,7 +1,7 @@
 {
   "name": "beans",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Plain-text double-entry accounting (beancount-compatible) as a General Text app.",
   "license": "MIT",
   "repository": "https://github.com/generaltext/beans",

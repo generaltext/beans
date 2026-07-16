@@ -51,11 +51,6 @@ export default function App() {
     setJump({ line, n: jumpN.current })
   }
 
-  function onNewLedger() {
-    const name = window.prompt('Name this ledger (e.g. "Acme LLC", "Personal")')
-    if (name && name.trim()) void actions.createLedger(name.trim())
-  }
-
   // Import brings a .beancount file in as its OWN new ledger (non-destructive).
   function onImportFile(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0]
@@ -94,7 +89,7 @@ export default function App() {
           {hasLedger && (
             <>
               <span className="text-neutral-300 dark:text-neutral-700">/</span>
-              <LedgerSwitcher ledgers={ledgers} activePath={activePath} onSwitch={setActivePath} onNew={onNewLedger} />
+              <LedgerSwitcher ledgers={ledgers} activePath={activePath} onSwitch={setActivePath} onNew={(name) => void actions.createLedger(name)} />
             </>
           )}
         </div>

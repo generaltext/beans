@@ -1,7 +1,7 @@
 {
   "name": "beans",
   "displayName": "Beans",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "gtApi": "^1.0",
   "blurb": "Plain-text double-entry accounting, beancount-compatible, in a collaborative web UI.",
   "icon": {
